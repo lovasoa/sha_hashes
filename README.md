@@ -1,5 +1,7 @@
 # sha_hashes
-Collection of sha hashes of common passwords
+Collection of sha hashes of common passwords.
+
+[![screenshot](https://cloud.githubusercontent.com/assets/552629/26223531/2498c004-3c27-11e7-997f-52fffc9398df.png)](https://lovasoa.github.io/sha_hashes/)
 
 ## Organisation of the repository
 
