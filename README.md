@@ -25,11 +25,11 @@ under `/hashes/sha1`.
 
 This repository contains over a million files. You might encounter issues when cloning it on your usual filesystem.
 
-Instead, if you have more than 4GB of RAM, I would recommend to clone it to a temporary file system:
+Instead, if you have more than 5GB of RAM, I would recommend to clone it to a temporary file system:
 
 ```sh
 mkdir -p /tmp/ram
-sudo mount -t tmpfs -o size=4G,nr_inodes=2m tmpfs /tmp/ram/
+sudo mount -t tmpfs -o size=5G,nr_inodes=2m tmpfs /tmp/ram/
 cd /tmp/ram/
 git clone --depth 1 git@github.com:lovasoa/sha_hashes.git
 ```
