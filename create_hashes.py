@@ -15,7 +15,7 @@ for i,password in enumerate(infile):
     path = basefolder / hashed[0] / hashed[1] / hashed[2] / hashed[3]
     path.mkdir(parents=True, exist_ok=True)
     (path / hashed).write_bytes(password_bytes)
-    print("% 10d:%s:%s" % (i, hashed, password), file=sys.stderr, end="\r")
+    print("% 100d:%s:%s" % (i, hashed, password), file=sys.stderr, end="\r")
 
 print("\nDone!", file=sys.stderr)
 
